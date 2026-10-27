@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para mi niña ♡</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: #fff8f0;
+      color: #35141d;
+      font-family: Georgia, serif;
+    }
+
+    button {
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .portada {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 30px 20px;
+      color: #fff8f0;
+      background: linear-gradient(135deg, #35141d, #8b3045);
+    }
+
+    .portada h1 {
+      font-size: clamp(3rem, 10vw, 6rem);
+      font-weight: normal;
+      margin: 20px 0;
+    }
+
+    .portada p {
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+
+    .boton {
+      border: 1px solid #c7a56a;
+      border-radius: 30px;
+      padding: 14px 24px;
+      background: #641d2b;
+      color: white;
+      margin-top: 18px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 65px 22px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 7vw, 3.2rem);
+      font-weight: normal;
+    }
+
+    .intro {
+      line-height: 1.9;
+    }
+
+    .recuerdos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 20px;
+      margin-top: 35px;
+    }
+
+    .foto {
+      background: white;
+      padding: 12px 12px 20px;
+      box-shadow: 0 8px 25px #35141d15;
+    }
+
+    .foto img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+    }
+
+    .foto p {
+      line-height: 1.6;
+    }
+
+    .carta-fondo {
+      background: #f1e4d7;
+    }
+
+    .carta {
+      background: #fffaf4;
+      padding: 30px;
+      text-align: left;
+      line-height: 1.9;
+      white-space: pre-line;
+      border: 1px solid #e8d5c0;
+    }
+
+    .pregunta {
+      max-width: none;
+      background: #35141d;
+      color: #fff8f0;
+      padding: 90px 20px;
+    }
+
+    .respuesta {
+      color: #e8c9a0;
+      min-height: 40px;
+      margin-top: 25px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="portada">
+    <div>
+      <p>UNA SORPRESA PARA TI</p>
+      <h1>Para ti,<br>mi niña ♡</h1>
+      <p>
+        Desde aquel 15 de agosto,<br>
+        hay una historia que quiero seguir escribiendo contigo.
+      </p>
+      <button class="boton"
+        onclick="document.getElementById('historia').scrollIntoView()">
+        Descubre tu sorpresa ♡
+      </button>
+    </div>
+  </header>
+
+  <section id="historia">
+    <p>NUESTRA HISTORIA</p>
+    <h2>Mis recuerdos favoritos</h2>
+    <p class="intro">
+      Hay momentos que se vuelven especiales simplemente
+      porque los comparto contigo. Estos son algunos de ellos.
+    </p>
+
+    <div class="recuerdos">
+
+      <article class="foto">
+        <img src="Fotos/foto1.jpg.jpg" alt="Nuestro recuerdo">
+        <h3>Mira que guapos jeje</h3>
+        <p>Y pensar que todo empezó en el sofá de tu casa.</p>
+      </article>
+
+      <article class="foto">
+        <img src="Fotos/foto2.jpg.jpg" alt="Un momento juntos">
+        <h3>Nuestra visita al acuario</h3>
+        <p>Mi lugar favorito siempre será junto a ti.</p>
+      </article>
+
+      <article class="foto">
+        <img src="fotos/foto3.jpg.jpg" alt="Otro recuerdo">
+        <h3>Un día muy especial</h3>
+        <p>El día en el que hicimos oficial nuestra locura.</p>
+      </article>
+
+      <article class="foto">
+        <img src="fotos/foto4.jpg.jpg" alt="Un recuerdo más">
+        <h3>Mis dos angelitos</h3>
+        <p>Mi foto favorita de toda mi galería.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <div class="carta-fondo">
+    <section>
+      <p>DE MI CORAZÓN AL TUYO</p>
+      <h2>Una carta para mi niña</h2>
+
+      <div class="carta">Mi niña,
+
+No sé si existe una forma perfecta de explicar lo que siento por ti, pero quería intentarlo.
+
+Desde aquel 15 de agosto, hemos empezado a construir una historia que me hace feliz. Me encanta compartir contigo los momentos importantes, pero también las cosas más sencillas: hablar, reírnos, hacer planes y disfrutar de estar juntos.
+
+Quiero seguir conociéndote, cuidando de lo nuestro, apoyándote en los días difíciles y celebrando contigo los buenos. No necesito que todo sea perfecto; quiero que sigamos eligiéndonos y creando recuerdos que sean solo nuestros.
+
+Esta pequeña página está hecha pensando en ti. Es una forma de guardar un pedacito de lo que siento y recordarte lo importante que eres para mí.
+
+Gracias por ser tú, mi niña.
+
+Te quiero muchísimo, más de lo que sé explicar con palabras. ♡
+
+Siempre tuyo.</div>
+
+      <p>🎵 Nuestra canción</p>
+      <a
+        href="https://www.youtube.com/results?search_query=Toro+enamorado+de+la+luna+Enol"
+        target="_blank"
+        rel="noopener">
+        Toro enamorado de la luna — Enol
+      </a>
+    </section>
+  </div>
+
+  <section class="pregunta" id="final">
+    <p>Y AHORA, UNA PREGUNTA...</p>
+    <h2>¿Quieres ser<br>mi San Valentín?</h2>
+    <p>Quiero compartir contigo un día muy especial. ♡</p>
+
+    <button class="boton" onclick="aceptar()">
+      ¡obviamenteeeeeeeeeeeeeee! ♡
+    </button>
+
+    <div class="respuesta" id="respuesta"></div>
+  </section>
+
+  <footer>
+    Hecho con cariño, especialmente para mi niña ♡
+  </footer>
+
+  <script>
+    function aceptar() {
+      document.getElementById("respuesta").textContent =
+        "¡Entonces tenemos una cita, my love! Te quiero muuuuuuuuuuuuuuuuuucho ♡";
+
+      for (let i = 0; i < 30; i++) {
+        const corazon = document.createElement("span");
+        corazon.textContent = "♥";
+        corazon.style.position = "fixed";
+        corazon.style.left = Math.random() * 100 + "vw";
+        corazon.style.top = "-30px";
+        corazon.style.fontSize = "24px";
+        corazon.style.color = "#e8a1aa";
+        corazon.style.zIndex = "100";
+        corazon.style.pointerEvents = "none";
+        corazon.style.transition = "transform 4s linear, opacity 4s";
+        document.body.appendChild(corazon);
+
+        requestAnimationFrame(() => {
+          corazon.style.transform =
+            `translateY(${window.innerHeight + 60}px) rotate(360deg)`;
+          corazon.style.opacity = "0";
+        });
+
+        setTimeout(() => corazon.remove(), 4200);
+      }
+    }
+  </script>
+
+</body>
+</html>
